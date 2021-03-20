@@ -10,9 +10,7 @@ import plotly.graph_objs as go
 
 ######################################################Data##############################################################
 
-path = 'https://raw.githubusercontent.com/nalpalhao/DV_Practival/master/datasets/'
-
-df = pd.read_csv(path + 'emissions.csv')
+df = pd.read_csv('emissions.csv')
 
 gas_names = ['CO2_emissions', 'GHG_emissions', 'CH4_emissions', 'N2O_emissions', 'F_Gas_emissions']
 
