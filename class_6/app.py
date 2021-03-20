@@ -10,7 +10,7 @@ import plotly.graph_objs as go
 
 ######################################################Data##############################################################
 
-path = 'https://raw.githubusercontent.com/nalpalhao/DV_Practival/master/datasets/'
+path = 'https://raw.githubusercontent.com/JojoMaker/dash_project_2/Datasets/'
 
 df = pd.read_csv(path + 'emissions.csv')
 
